@@ -29,7 +29,7 @@ void Redis::init_notify_handler(function<void(int,string)> fn)
 // 连接redis服务器 
 bool Redis::connect()
 {
-    const char ip[10] = "192.168.134.129";
+    const char ip[16] = "192.168.134.129";
     int port = 6379;
     const char* password = "wzzclgsj111";
 
